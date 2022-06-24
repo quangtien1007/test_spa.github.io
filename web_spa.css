@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,200&display=swap');
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color:white;
+    font-size: 14pt;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+section.top-page{
+    padding-top: 20px;
+    text-align: center;
+    
+}
+section.top-page a.logo{
+    float: left;
+}
+section.top-page a.menu-items{
+    border: 1px solid white;
+    padding: 7px 13px;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin: 20px;
+    margin-top: auto;
+    transition: 0.3s;
+}
+section.top-page a.menu-items:hover{
+    color:cadetblue;
+    text-decoration: none;
+}
+section.top-page a.login{
+    float:right;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    padding:7px 30px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+section.top-page a.login:hover{
+    color: white;
+    background-color: cadetblue;
+    opacity: 0.5;
+}
+section.main-page{
+    text-align: center;
+}
+div.pic1{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width : 900px;
+    height : 500px;
+    border : solid 1px black;
+    border-radius: 5px;
+}
+div.pic1 img{
+    padding-top: 60px;
+    width : 500px;
+    margin:0 auto;
+    display:block;
+    transition: 0.5s;
+}
+div.pic1 img:hover{
+    width : 600px;
+    padding-top: 40px;
+}
+div.pic{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width : 900px;
+    height : 500px;
+    border : solid 1px black;
+    border-radius: 5px;
+}
+div.pic img{
+    padding-top: 40px;
+    width : 300px;
+    margin:0 auto;
+    display:block;
+    transition: 0.5s;
+}
+div.pic img:hover{
+    width : 350px;
+    padding-top: 15px;
+}
+div.booking{
+    margin-top: 20px;
+}
+div.booking a{
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration:double;
+    color: black;
+}
+div.booking a:hover{
+    text-decoration: underline;
+    color:cadetblue;
+}
+section.bottom-page{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+section.bottom-page a{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    margin: 30px;
+    transition: 0.3s;
+}
+section.bottom-page a:hover{
+    color:cadetblue;
+    font-weight: bold;
+}
